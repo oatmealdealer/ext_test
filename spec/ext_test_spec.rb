@@ -6,6 +6,6 @@ RSpec.describe ExtTest do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    expect(ExtTest.hello("foo")).to eq("Hello from Rust, foo!")
   end
 end
