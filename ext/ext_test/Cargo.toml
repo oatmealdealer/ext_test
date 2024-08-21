@@ -1,0 +1,12 @@
+[package]
+name = "ext_test"
+version = "0.1.0"
+edition = "2021"
+authors = ["TODO: Write your name <TODO: Write your email address>"]
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+magnus = { version = "0.6" }
